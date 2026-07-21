@@ -1,0 +1,24 @@
+{
+  "dedi_version": "0.1",
+  "type": "dedi-manifest",
+  "domain": "angular-absently-gab.ngrok-free.dev",
+  "name": "Local Test Provider Node",
+  "keys": [
+    { "kid": "key-001", "kty": "OKP", "crv": "Ed25519", "x": "11qYAYKxCrfVS_7TyWQHOg7hcvPapiMlrwIaaPcHURo" }
+  ],
+  "updated_at": "2026-07-21T00:00:00Z",
+  "next_update": "2026-08-04T00:00:00Z",
+  "files": [
+    {
+      "registry": "beckn-catalogs",
+      "url": "https://angular-absently-gab.ngrok-free.dev/dedi/beckn-catalogs.dedi.json",
+      "digest": "sha-256:b35c6aa2e0f190e1ff4b26a7730dc83043b64baaa82422251b22bbd69a2e73e9",
+      "schema": "https://schema.nfh.global/dedi/BecknCatalogIndexRecord/1.0.0/schema.json",
+      "state": "live"
+    }
+  ],
+  "proof": {
+    "verification_method": "key-001",
+    "canonicalization": "JCS",
+    "jws": "UNSIGNED_LOCAL_TEST_DATA_NO_CRYPTOGRAPHIC_SIGNATURE"
+  }

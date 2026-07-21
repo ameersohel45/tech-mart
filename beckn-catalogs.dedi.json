@@ -1,0 +1,47 @@
+{
+  "dedi_version": "0.1",
+  "type": "dedi-file",
+  "source_url": "https://angular-absently-gab.ngrok-free.dev/dedi/beckn-catalogs.dedi.json",
+  "next_update": "2026-08-04T00:00:00Z",
+
+  "publisher": {
+    "domain": "angular-absently-gab.ngrok-free.dev",
+    "key": { "kid": "key-001", "kty": "OKP", "crv": "Ed25519", "x": "11qYAYKxCrfVS_7TyWQHOg7hcvPapiMlrwIaaPcHURo" }
+  },
+  "namespace": "angular-absently-gab.ngrok-free.dev",
+
+  "registry": {
+    "name": "beckn-catalogs",
+    "schema": "https://schema.nfh.global/dedi/BecknCatalogIndexRecord/1.0.0/schema.json",
+    "state": "live",
+    "updated_at": "2026-07-21T00:00:00Z"
+  },
+
+  "records": [
+    {
+      "record_name": "CAT-GENERIC-001",
+      "details": {
+        "catalogId": "CAT-GENERIC-001",
+        "version": 1,
+        "catalogType": "REGULAR",
+        "status": "ACTIVE",
+        "visibility": "public",
+        "updatedAt": "2026-07-21T00:00:00Z",
+        "schemaTypes": ["https://schema.beckn.org/retail/schema/1.1.0/context.jsonld"],
+        "parts": [
+          {
+            "url": "https://angular-absently-gab.ngrok-free.dev/catalogs/CAT-GENERIC-001.json",
+            "digest": "sha-256:4250ca604ca8e561408576987cef2bca96907209fd5525c8f4aebae4fe4b1aec",
+            "lastModified": "2026-07-21T00:00:00Z"
+          }
+        ]
+      }
+    }
+  ],
+
+  "proof": {
+    "verification_method": "key-001",
+    "canonicalization": "JCS",
+    "jws": "UNSIGNED_LOCAL_TEST_DATA_NO_CRYPTOGRAPHIC_SIGNATURE"
+  }
+}
