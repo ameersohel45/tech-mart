@@ -11,7 +11,7 @@
   "files": [
     {
       "registry": "beckn-catalogs",
-      "url": "https://angular-absently-gab.ngrok-free.dev/dedi/beckn-catalogs.dedi.json",
+      "url": "https://raw.githubusercontent.com/ameersohel45/tech-mart/main/beckn-catalogs.dedi.json",
       "digest": "sha-256:b35c6aa2e0f190e1ff4b26a7730dc83043b64baaa82422251b22bbd69a2e73e9",
       "schema": "https://schema.nfh.global/dedi/BecknCatalogIndexRecord/1.0.0/schema.json",
       "state": "live"
@@ -22,3 +22,4 @@
     "canonicalization": "JCS",
     "jws": "UNSIGNED_LOCAL_TEST_DATA_NO_CRYPTOGRAPHIC_SIGNATURE"
   }
+}
