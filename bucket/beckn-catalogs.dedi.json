@@ -1,7 +1,7 @@
 {
   "dedi_version": "0.1",
   "type": "dedi-file",
-  "source_url": "https://raw.githubusercontent.com/ameersohel45/tech-mart/main/beckn-catalogs.dedi.json",
+  "source_url": "https://raw.githubusercontent.com/ameersohel45/tech-mart/main/bucket/beckn-catalogs.dedi.json",
   "next_update": "2026-08-04T00:00:00Z",
 
   "publisher": {
@@ -30,7 +30,7 @@
         "schemaTypes": ["https://schema.beckn.org/retail/schema/1.1.0/context.jsonld"],
         "parts": [
           {
-            "url": "https://raw.githubusercontent.com/ameersohel45/tech-mart/main/CAT-GENERIC-001.json",
+            "url": "https://raw.githubusercontent.com/ameersohel45/tech-mart/main/bucket/CAT-GENERIC-001.json",
             "digest": "sha-256:d3c4de81ec9cb222b962e61e5a1ccdf8e3c9c97938ac8d675b448014056f76ce",
             "lastModified": "2026-07-21T00:00:00Z"
           }
