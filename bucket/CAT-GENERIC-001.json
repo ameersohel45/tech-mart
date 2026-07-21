@@ -1,7 +1,7 @@
 {
   "id": "CAT-GENERIC-001",
   "descriptor": {
-    "name": "Generic Catalog (CACHE-BUST TEST)",
+    "name": "Generic Catalog",
     "shortDesc": "Daily essentials  generic items"
   },
   "provider": {
