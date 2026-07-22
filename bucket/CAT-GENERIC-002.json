@@ -1,0 +1,63 @@
+{
+  "id": "CAT-GENERIC-002",
+  "descriptor": {
+    "name": "Second Catalog",
+    "shortDesc": "Added to test new-catalog detection"
+  },
+  "provider": {
+    "id": "PROV-EXAMPLE-03",
+    "descriptor": {
+      "name": "New Provider Ltd"
+    },
+    "availableAt": [
+      {
+        "geo": { "type": "Point", "coordinates": [77.5946, 12.9716] },
+        "address": {
+          "streetAddress": "MG Road",
+          "addressLocality": "Bengaluru",
+          "addressRegion": "Karnataka",
+          "postalCode": "560001",
+          "addressCountry": "IN"
+        }
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "ITEM-GENERIC-101",
+      "descriptor": {
+        "name": "Tata Tea Premium",
+        "shortDesc": "Rich, full-bodied tea, 250g",
+        "longDesc": "Tata Tea Premium is a blend of the finest tea leaves, delivering a rich aroma and full-bodied taste in every cup."
+      },
+      "provider": { "id": "PROV-EXAMPLE-03", "descriptor": { "name": "New Provider Ltd" } },
+      "rating": { "ratingValue": 4.3, "ratingCount": 21000, "bestRating": 5, "worstRating": 1 },
+      "availableAt": [
+        {
+          "geo": { "type": "Point", "coordinates": [77.5946, 12.9716] },
+          "address": {
+            "streetAddress": "MG Road",
+            "addressLocality": "Bengaluru",
+            "addressRegion": "Karnataka",
+            "postalCode": "560001",
+            "addressCountry": "IN"
+          }
+        }
+      ]
+    }
+  ],
+  "offers": [
+    {
+      "id": "OFFER-GENERIC-201",
+      "descriptor": {
+        "name": "Tea Saver",
+        "shortDesc": "10% off on Tata Tea Premium"
+      },
+      "resourceIds": ["ITEM-GENERIC-101"],
+      "provider": { "id": "PROV-EXAMPLE-03", "descriptor": { "name": "New Provider Ltd" } },
+      "validity": { "startDate": "2026-03-04T00:00:00Z", "endDate": "2026-03-31T23:59:59Z" }
+    }
+  ],
+  "validity": { "startDate": "2026-01-01T00:00:00Z", "endDate": "2026-12-31T23:59:59Z" },
+  "isActive": true
+}
