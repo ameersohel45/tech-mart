@@ -2,20 +2,13 @@
   "dedi_version": "0.1",
   "type": "dedi-manifest",
   "domain": "angular-absently-gab.ngrok-free.dev",
-  "name": "Local Test Provider Node",
+  "name": "FreshMart Pvt Ltd",
   "keys": [
     { "kid": "key-001", "kty": "OKP", "crv": "Ed25519", "x": "11qYAYKxCrfVS_7TyWQHOg7hcvPapiMlrwIaaPcHURo" }
   ],
   "updated_at": "2026-07-21T00:00:00Z",
   "next_update": "2026-08-04T00:00:00Z",
   "files": [
-    {
-      "registry": "beckn-catalogs",
-      "url": "https://drive.google.com/uc?export=download&id=1IfNX6N6j6jB6KH1cqbsBVggR2M0IS02l",
-      "digest": "sha-256:949e258fcd34bf70119aad6ec157c7c8ba9e1eac160a868c1a861258419291b3",
-      "schema": "https://schema.nfh.global/dedi/BecknCatalogIndexRecord/1.0.0/schema.json",
-      "state": "live"
-    },
     {
       "registry": "beckn-catalogs",
       "url": "https://raw.githubusercontent.com/ameersohel45/tech-mart/main/bucket/beckn-catalogs.dedi.json",
