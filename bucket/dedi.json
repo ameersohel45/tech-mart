@@ -11,8 +11,8 @@
   "files": [
     {
       "registry": "beckn-catalogs",
-      "url": "https://raw.githubusercontent.com/ameersohel45/tech-mart/main/bucket/beckn-catalogs.dedi.json",
-      "digest": "sha-256:c28b130a9ea3decab52f31ac1c9495e2a300f09ef8393be78647f78aedd7ced1",
+      "url": "https://drive.google.com/uc?export=download&id=1IfNX6N6j6jB6KH1cqbsBVggR2M0IS02l",
+      "digest": "sha-256:949e258fcd34bf70119aad6ec157c7c8ba9e1eac160a868c1a861258419291b3",
       "schema": "https://schema.nfh.global/dedi/BecknCatalogIndexRecord/1.0.0/schema.json",
       "state": "live"
     }
