@@ -5,10 +5,10 @@
   "next_update": "2026-08-04T00:00:00Z",
 
   "publisher": {
-    "domain": "angular-absently-gab.ngrok-free.dev",
+    "domain": "https://github.com/ameersohel45/tech-mart",
     "key": { "kid": "key-001", "kty": "OKP", "crv": "Ed25519", "x": "11qYAYKxCrfVS_7TyWQHOg7hcvPapiMlrwIaaPcHURo" }
   },
-  "namespace": "angular-absently-gab.ngrok-free.dev",
+  "namespace": "https://github.com/ameersohel45/tech-mart",
 
   "registry": {
     "name": "beckn-catalogs",

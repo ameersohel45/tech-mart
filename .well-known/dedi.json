@@ -1,7 +1,7 @@
 {
   "dedi_version": "0.1",
   "type": "dedi-manifest",
-  "domain": "angular-absently-gab.ngrok-free.dev",
+  "domain": "https://github.com/ameersohel45/tech-mart",
   "name": "FreshMart Pvt Ltd",
   "keys": [
     { "kid": "key-001", "kty": "OKP", "crv": "Ed25519", "x": "11qYAYKxCrfVS_7TyWQHOg7hcvPapiMlrwIaaPcHURo" }
@@ -12,7 +12,7 @@
     {
       "registry": "beckn-catalogs",
       "url": "https://raw.githubusercontent.com/ameersohel45/tech-mart/main/bucket/beckn-catalogs.dedi.json",
-      "digest": "sha-256:ca21d4e3f085c94e497a5d2d5ef1672edc00acd3d9851e02472ae84cf2a91afc",
+      "digest": "sha-256:df2e0f0836bbfccba3911266cef52ba47c2795b05e755d377709546d7da754d5",
       "schema": "https://schema.nfh.global/dedi/BecknCatalogIndexRecord/1.0.0/schema.json",
       "state": "live"
     }
