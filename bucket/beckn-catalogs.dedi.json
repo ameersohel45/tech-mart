@@ -36,25 +36,6 @@
           }
         ]
       }
-    },
-    {
-      "record_name": "CAT-GENERIC-002",
-      "details": {
-        "catalogId": "CAT-GENERIC-002",
-        "version": 1,
-        "catalogType": "REGULAR",
-        "status": "ACTIVE",
-        "visibility": "public",
-        "updatedAt": "2026-07-22T00:00:00Z",
-        "schemaTypes": ["https://schema.beckn.org/retail/schema/1.1.0/context.jsonld"],
-        "parts": [
-          {
-            "url": "https://raw.githubusercontent.com/ameersohel45/tech-mart/main/bucket/CAT-GENERIC-002.json",
-            "digest": "sha-256:a764ee796fe825286da29136041a94be5f35462c741bf118e529a52d80d61884",
-            "lastModified": "2026-07-22T00:00:00Z"
-          }
-        ]
-      }
     }
   ],
 
