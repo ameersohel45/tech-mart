@@ -17,10 +17,14 @@
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
+const { execSync } = require("child_process");
 
 const ROOT = __dirname;
 const MANIFEST = path.join(ROOT, ".well-known", "dedi.json");
 const UPDATE_MANIFEST = process.argv.includes("--manifest");
+const NO_PUSH = process.argv.includes("--no-push");
+// commit message: first non-flag CLI arg, else a default.
+const COMMIT_MSG = process.argv.slice(2).find((a) => !a.startsWith("--")) || "update catalog";
 
 // sha-256 of the exact file bytes (trailing newline included).
 function sha256Of(file) {
@@ -75,4 +79,21 @@ for (const fref of manifest.files) {
 
 console.log("digest chain " + (changed ? "updated." : "already up to date."));
 if (!UPDATE_MANIFEST) console.log("(manifest left untouched — pass --manifest to also refresh its index digest)");
-console.log("Next: git add -A && git commit -m 'update catalog' && git push");
+
+// Auto commit + push (skip with --no-push). Only commits when the working tree has changes,
+// so a no-op run won't create an empty commit.
+if (NO_PUSH) {
+  console.log("Next: git add -A && git commit -m 'update catalog' && git push  (--no-push set)");
+} else {
+  const git = (cmd) => execSync(`git ${cmd}`, { cwd: ROOT, stdio: "pipe" }).toString().trim();
+  const dirty = git("status --porcelain");
+  if (!dirty) {
+    console.log("nothing to commit — working tree clean.");
+  } else {
+    git("add -A");
+    git(`commit -m ${JSON.stringify(COMMIT_MSG)}`);
+    console.log(`committed: "${COMMIT_MSG}"`);
+    execSync("git push", { cwd: ROOT, stdio: "inherit" });
+    console.log("pushed. (allow a few minutes for GitHub raw origin to serve the new bytes)");
+  }
+}
