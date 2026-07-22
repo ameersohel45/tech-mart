@@ -1,0 +1,411 @@
+{
+  "id": "CAT-GROCERY-FRESHMART-100",
+  "descriptor": {
+    "name": "FreshMart Grocery Catalog",
+    "shortDesc": "Daily essentials-tea, coffee & beverages"
+  },
+  "provider": {
+    "id": "PROV-FRESHMART-05",
+    "descriptor": {
+      "name": "FreshMart Pvt Ltd"
+    },
+    "availableAt": [
+      {
+        "geo": {
+          "type": "Point",
+          "coordinates": [
+            77.6401,
+            12.9116
+          ]
+        },
+        "address": {
+          "streetAddress": "27th Main Rd, Sector 2, HSR Layout",
+          "addressLocality": "Bengaluru",
+          "addressRegion": "Karnataka",
+          "postalCode": "560102",
+          "addressCountry": "IN"
+        }
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "RES-GROCERY-BRU-GOLD-COFFEE-200GRAMS",
+      "descriptor": {
+        "name": "Bru Gold Instant Coffee Powder",
+        "shortDesc": "Rich and aromatic instant coffee powder, 200g",
+        "longDesc": "Bru Gold is a premium blend of coffee and chicory, crafted for those who love a rich, flavourful cup. Made from handpicked coffee beans roasted to perfection, this instant coffee powder dissolves quickly to give you a smooth, aromatic brew every time. Perfect for filter coffee, cappuccino, or a classic South Indian style coffee.",
+        "mediaFile": [
+          {
+            "uri": "https://www.jiomart.com/images/product/original/599173064/599173064.jpg",
+            "mimeType": "image/jpeg",
+            "label": "Product image"
+          }
+        ]
+      },
+      "resourceAttributes": {
+        "@context": "https://schema.beckn.io/GroceryResource/v2.1/context.jsonld",
+        "@type": "GroceryResource",
+        "identity": {
+          "brand": "Bru",
+          "originCountry": "IN"
+        },
+        "physical": {
+          "weight": {
+            "unitQuantity": 200,
+            "unitText": "G"
+          }
+        },
+        "food": {
+          "classification": [
+            "VEG"
+          ]
+        },
+        "packagedGoodsDeclaration": {
+          "manufacturerOrPacker": {
+            "type": "MANUFACTURER",
+            "name": "Hindustan Unilever Limited",
+            "id": "HUL-KA-1001",
+            "address": "HUL House, 165-166 Backbay Reclamation, Mumbai, Maharashtra, 400020, IN"
+          },
+          "commonOrGenericName": "Instant Coffee and Chicory Powder",
+          "netQuantity": {
+            "unitQuantity": 200,
+            "unitText": "G"
+          },
+          "manufacturePackingImportDate": {
+            "month": 1,
+            "year": 2026
+          }
+        },
+        "foodRegulatoryDeclaration": {
+          "registrations": [
+            {
+              "scheme": "FSSAI",
+              "id": "10013022002253",
+              "role": "MANUFACTURER"
+            }
+          ],
+          "additives": [
+            {
+              "type": "FREE_FROM",
+              "value": "Artificial colours"
+            },
+            {
+              "type": "FREE_FROM",
+              "value": "Preservatives"
+            }
+          ]
+        },
+        "nutrition": [
+          {
+            "nutrient": "Energy",
+            "value": {
+              "unitQuantity": 287,
+              "unitText": "KCAL"
+            }
+          },
+          {
+            "nutrient": "Protein",
+            "value": {
+              "unitQuantity": 13.5,
+              "unitText": "G"
+            }
+          },
+          {
+            "nutrient": "Caffeine",
+            "value": {
+              "unitQuantity": 56,
+              "unitText": "MG"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RES-GROCERY-NESCAFE-CLASSIC-COFFEE-100GRAMS",
+      "descriptor": {
+        "name": "Nescafe Classic Instant Coffee",
+        "shortDesc": "Pure soluble coffee, bold and rich, 100g",
+        "longDesc": "Nescafe Classic is made from 100% pure coffee beans, carefully selected and roasted to deliver a bold, rich flavour in every cup. This instant coffee dissolves instantly in hot or cold water, making it ideal for a quick coffee fix anytime. Loved by coffee enthusiasts across India.",
+        "mediaFile": [
+          {
+            "uri": "https://m.media-amazon.com/images/S/aplus-media/vc/bb6a0196-cad0-4395-b85e-134ef725c0f7._CR0,0,1251,1251_PT0_SX300__.png",
+            "mimeType": "image/jpeg",
+            "label": "Product image"
+          }
+        ]
+      },
+      "resourceAttributes": {
+        "@context": "https://schema.beckn.io/GroceryResource/v2.1/context.jsonld",
+        "@type": "GroceryResource",
+        "identity": {
+          "brand": "Nescafe",
+          "originCountry": "IN"
+        },
+        "physical": {
+          "weight": {
+            "unitQuantity": 100,
+            "unitText": "G"
+          }
+        },
+        "food": {
+          "classification": [
+            "VEG"
+          ]
+        },
+        "packagedGoodsDeclaration": {
+          "manufacturerOrPacker": {
+            "type": "MANUFACTURER",
+            "name": "Nestle India Limited",
+            "id": "NESTLE-KA-2002",
+            "address": "100/101 World Trade Centre, Barakhamba Lane, New Delhi, Delhi, 110001, IN"
+          },
+          "commonOrGenericName": "Instant Coffee",
+          "netQuantity": {
+            "unitQuantity": 100,
+            "unitText": "G"
+          },
+          "manufacturePackingImportDate": {
+            "month": 1,
+            "year": 2026
+          }
+        },
+        "foodRegulatoryDeclaration": {
+          "registrations": [
+            {
+              "scheme": "FSSAI",
+              "id": "10013022000743",
+              "role": "MANUFACTURER"
+            }
+          ],
+          "additives": [
+            {
+              "type": "FREE_FROM",
+              "value": "Artificial colours"
+            },
+            {
+              "type": "FREE_FROM",
+              "value": "Preservatives"
+            }
+          ]
+        },
+        "nutrition": [
+          {
+            "nutrient": "Energy",
+            "value": {
+              "unitQuantity": 353,
+              "unitText": "KCAL"
+            }
+          },
+          {
+            "nutrient": "Protein",
+            "value": {
+              "unitQuantity": 15.4,
+              "unitText": "G"
+            }
+          },
+          {
+            "nutrient": "Caffeine",
+            "value": {
+              "unitQuantity": 67,
+              "unitText": "MG"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "offers": [
+    {
+      "id": "OFFER-BRU-GOLD-200G-006",
+      "descriptor": {
+        "name": "Bru Gold Instant Coffee 200g",
+        "shortDesc": "MRP for Bru Gold Instant Coffee Powder 200g"
+      },
+      "resourceIds": [
+        "RES-GROCERY-BRU-GOLD-COFFEE-200GRAMS"
+      ],
+      "provider": {
+        "id": "PROV-FRESHMART-KORAMANGALA-05",
+        "descriptor": {
+          "name": "FreshMart Koramangala"
+        },
+        "availableAt": [
+          {
+            "geo": {
+              "type": "Point",
+              "coordinates": [
+                77.6245,
+                12.9352
+              ]
+            },
+            "address": {
+              "streetAddress": "80 Feet Rd, 4th Block, Koramangala",
+              "addressLocality": "Bengaluru",
+              "addressRegion": "Karnataka",
+              "postalCode": "560034",
+              "addressCountry": "IN"
+            }
+          }
+        ]
+      },
+      "validity": {
+        "startDate": "2026-04-01T00:00:00Z",
+        "endDate": "2026-06-30T23:59:59Z"
+      },
+      "considerations": [
+        {
+          "id": "CONSIDERATION-BRU-GOLD-005",
+          "status": {
+            "name": "ACTIVE"
+          },
+          "considerationAttributes": {
+            "@context": "https://schema.beckn.io/RetailConsideration/v2.1/context.jsonld",
+            "@type": "RetailConsideration",
+            "currency": "INR",
+            "breakup": [
+              {
+                "title": "Bru Gold Instant Coffee 200g (MRP)",
+                "amount": 375,
+                "type": "BASE_PRICE"
+              }
+            ],
+            "totalAmount": 375
+          }
+        }
+      ],
+      "offerAttributes": {
+        "@context": "https://schema.beckn.io/RetailOffer/v2.1/context.jsonld",
+        "@type": "RetailOffer",
+        "policies": {
+          "returns": {
+            "allowed": true,
+            "window": "P7D",
+            "method": "SELLER_PICKUP"
+          }
+        },
+        "paymentConstraints": {
+          "codAvailable": true
+        },
+        "serviceability": {
+          "distanceConstraint": {
+            "maxDistance": 10,
+            "unit": "KM"
+          },
+          "timing": [
+            {
+              "daysOfWeek": [
+                "MON",
+                "TUE",
+                "WED",
+                "THU",
+                "FRI",
+                "SAT"
+              ],
+              "timeRange": {
+                "start": "08:00",
+                "end": "21:00"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "OFFER-NESCAFE-CLASSIC-100G-006",
+      "descriptor": {
+        "name": "Nescafe Classic 100g",
+        "shortDesc": "MRP for Nescafe Classic Instant Coffee 100g"
+      },
+      "resourceIds": [
+        "RES-GROCERY-NESCAFE-CLASSIC-COFFEE-100GRAMS"
+      ],
+      "provider": {
+        "id": "PROV-FRESHMART-KORAMANGALA-05",
+        "descriptor": {
+          "name": "FreshMart Koramangala"
+        },
+        "availableAt": [
+          {
+            "geo": {
+              "type": "Point",
+              "coordinates": [
+                77.6245,
+                12.9352
+              ]
+            },
+            "address": {
+              "streetAddress": "80 Feet Rd, 4th Block, Koramangala",
+              "addressLocality": "Bengaluru",
+              "addressRegion": "Karnataka",
+              "postalCode": "560034",
+              "addressCountry": "IN"
+            }
+          }
+        ]
+      },
+      "validity": {
+        "startDate": "2026-04-01T00:00:00Z",
+        "endDate": "2026-06-30T23:59:59Z"
+      },
+      "considerations": [
+        {
+          "id": "CONSIDERATION-NESCAFE-005",
+          "status": {
+            "name": "ACTIVE"
+          },
+          "considerationAttributes": {
+            "@context": "https://schema.beckn.io/RetailConsideration/v2.1/context.jsonld",
+            "@type": "RetailConsideration",
+            "currency": "INR",
+            "breakup": [
+              {
+                "title": "Nescafe Classic Instant Coffee 100g (MRP)",
+                "amount": 285,
+                "type": "BASE_PRICE"
+              }
+            ],
+            "totalAmount": 285
+          }
+        }
+      ],
+      "offerAttributes": {
+        "@context": "https://schema.beckn.io/RetailOffer/v2.1/context.jsonld",
+        "@type": "RetailOffer",
+        "policies": {
+          "returns": {
+            "allowed": true,
+            "window": "P7D",
+            "method": "SELLER_PICKUP"
+          }
+        },
+        "paymentConstraints": {
+          "codAvailable": true
+        },
+        "serviceability": {
+          "distanceConstraint": {
+            "maxDistance": 10,
+            "unit": "KM"
+          },
+          "timing": [
+            {
+              "daysOfWeek": [
+                "MON",
+                "TUE",
+                "WED",
+                "THU",
+                "FRI",
+                "SAT"
+              ],
+              "timeRange": {
+                "start": "08:00",
+                "end": "21:00"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -36,6 +36,25 @@
           }
         ]
       }
+    },
+    {
+      "record_name": "CAT-GROCERY-FRESHMART-100",
+      "details": {
+        "catalogId": "CAT-GROCERY-FRESHMART-100",
+        "version": 1,
+        "catalogType": "REGULAR",
+        "status": "ACTIVE",
+        "visibility": "public",
+        "updatedAt": "2026-07-22T00:00:00Z",
+        "schemaTypes": ["https://schema.beckn.io/GroceryResource/v2.1/context.jsonld"],
+        "parts": [
+          {
+            "url": "https://raw.githubusercontent.com/ameersohel45/tech-mart/main/bucket/CAT-GROCERY-FRESHMART-100.json",
+            "digest": "sha-256:02c717ae90ac93c5c45e8bb83ccc4cc1c04d5aa2018be534f0f59faee798156e",
+            "lastModified": "2026-07-22T00:00:00Z"
+          }
+        ]
+      }
     }
   ],
 

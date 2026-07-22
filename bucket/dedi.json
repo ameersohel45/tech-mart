@@ -15,6 +15,13 @@
       "digest": "sha-256:949e258fcd34bf70119aad6ec157c7c8ba9e1eac160a868c1a861258419291b3",
       "schema": "https://schema.nfh.global/dedi/BecknCatalogIndexRecord/1.0.0/schema.json",
       "state": "live"
+    },
+    {
+      "registry": "beckn-catalogs",
+      "url": "https://raw.githubusercontent.com/ameersohel45/tech-mart/main/bucket/beckn-catalogs.dedi.json",
+      "digest": "sha-256:2e72fcedc174b92bb7baf621ab6268bcaa220ce223746997bb1ff6687ab3ff35",
+      "schema": "https://schema.nfh.global/dedi/BecknCatalogIndexRecord/1.0.0/schema.json",
+      "state": "live"
     }
   ],
   "proof": {
