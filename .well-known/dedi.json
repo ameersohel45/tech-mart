@@ -12,7 +12,7 @@
     {
       "registry": "beckn-catalogs",
       "url": "https://raw.githubusercontent.com/ameersohel45/tech-mart/main/bucket/beckn-catalogs.dedi.json",
-      "digest": "sha-256:df2e0f0836bbfccba3911266cef52ba47c2795b05e755d377709546d7da754d5",
+      "digest": "sha-256:af54850668dad1e77d9b1ccaac8d3f57e1a78fac35629f37f2d983e347502100",
       "schema": "https://schema.nfh.global/dedi/BecknCatalogIndexRecord/1.0.0/schema.json",
       "state": "live"
     }
